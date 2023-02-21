@@ -1,139 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <title>Advanced HTML</title>
+  <title>Basic HTML</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+  
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" 
     integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
-    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
-    crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"
-    integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD"
-    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" 
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" 
+    integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
 </head>
-
 <body>
-  <h1>Plant by Lalith Vuppala</h1>
-  <div class="container">
-    <div class="row">
-      <div class="col-sm-2">V</div>
-      <div class="col-sm-2">U</div>
-      <div class="col-sm-2">P</div>
-      <div class="col-sm-2">P</div>
-      <div class="col-sm-2">A</div>
-      <div class="col-sm-2">L</div>
 
-      <div class="row">
-        <div class="col-md">Verbena</div>
-        <div class="col-md">Ulex</div>
-        <div class="col-md">PANDOREA</div>
-        <div class="col-md">PAPAVER</div>
-        <div class="col-md">Aeonium</div>
-        <div class="col-md">Lantana</div>
-      </div>
-    </div>
-
-    <br>
-    <p style="color: blue"> After reducing the size of the browser screen slowly the size of the plants
-      names are formed vertical and the first letters of my lastname/plant name are in horizontal
-      format only the change is seen at 760*490 zoomed dimension </p>
-    <div class="container">
-
-      <img src="verbena-Flower.jpg" height="400" width="400" class="img-fluid">
-      <img src="Ulex.jpg" height="400" width="400" class="img-fluid">
-      <img src="Pandorea.jpg" height="400" width="400" class="img-fluid">
-    </div>
-
-
-    <div class="container">
-      <img src="verbena-Flower.jpg" height="400" width="400" class="img-thumbnail">
-      <img src="Ulex.jpg" height="400" width="400" class="img-thumbnail">
-      <img src="Pandorea.jpg" height="400" width="400" class="img-thumbnail">
-    </div>
-    <table class="table table-sm table-thead table-borders table- striped table-hovering table- compact table-danger"
-      style="text-align: center;">
-      <caption style="color: rgb(5, 105, 105);">Created a table which shows Letters,Plant,Mountain and Lake names
-        according to my last name</caption>
-      <thead class=" table-dark">
-        <tr>
-          <th scope="col">Letters</th>
-          <th scope="col">plant</th>
-          <th scope="col">Mountain</th>
-          <th scope="col">Lake</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr class="table-secondary">
-          <td>V</td>
-          <td>Verbena</td>
-          <td>vesper peak</td>
-          <td>Valencia</td>
-        </tr>
-        <tr class="table-primary">
-          <td>U</td>
-          <td>Ulex</td>
-          <td>ubinas</td>
-          <td>Ubinskoe</td>
-        </tr>
-        <tr class="table-success">
-          <td>P</td>
-          <td>Pandorea</td>
-          <td>pandim</td>
-          <td>Paajarvi</td>
-        </tr>
-        <tr class="table-danger">
-          <td>P</td>
-          <td>papaver</td>
-          <td>pangpoche</td>
-          <td>Paw Paw Lak</td>
-        </tr>
-        <tr class="table-warning">
-          <td>A</td>
-          <td>Abelia</td>
-          <td>Ampato</td>
-          <td>Abaya</td>
-        </tr>
-        <tr class="table-dark">
-          <td>L</td>
-          <td>Lantana</td>
-          <td>liathach</td>
-          <td>Ladoga</td>
-        </tr>
-
-        <tr class="table-info">
-          <td>A</td>
-          <td>Asparagus</td>
-          <td>Adishi</td>
-          <td>Abashiri</td>
-        </tr>
-      </tbody>
-
-    </table>
-    <div class="btn-toolbar" aria-labelledby="Toolbar with button">
-      <div class="btn-group me-2" aria-label="First group">
-        <button type="button" class="btn btn-primary">V</button>
-        <button type="button" class="btn btn-primary">U</button>
-        <button type="button" class="btn btn-primary">P</button>
-
-      </div>
-
-      <div class="btn-group me-2" aria-label="Second group">
-        <button type="button" class="btn btn-success">P</button>
-        <button type="button" class="btn btn-success">A</button>
-      </div>
-
-       <div class="btn-group" aria-label="Third group">
-          <button type="button" class="btn btn-danger">L</button>
-       </div>
-       
-
-
+    <p><h4>BASIC.HTML</h4></p>
+    
 
 
 </body>
-
 </html>
